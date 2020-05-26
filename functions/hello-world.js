@@ -1,6 +1,11 @@
-export async function handler(event, context) {
+
+
+
+exports.handler = async (event, context) => {
+
   return {
     statusCode: 200,
     body: 'Hello World'
   }
 }
+
